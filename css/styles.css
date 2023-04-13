@@ -22,6 +22,13 @@ header{
     padding: 3vh 5vw;
     height: 12vh;
 }
+.bienvenida{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:6vw;
+    max-width: 50%;
+}
 section #logo{
     display:flex;
     align-items: center;
@@ -62,7 +69,8 @@ main{
     box-shadow: -3px 3px 7px 3px rgb(40, 40, 40);
     border-radius: 1rem;
     animation-name:aparece;
-    animation-duration: 2s;   
+    animation-duration: 2s;
+    margin-left:2.5vw;   
 }
 .seccionSecundaria{
     display: flex;
@@ -177,6 +185,19 @@ display: none;
         align-items: flex-start;
        
     }
+    
+    .bienvenida{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        gap:6vw;
+        max-width: 50%;
+    }
+    .bienvenida h2{
+        font-size: 1.25rem;
+
+    }
+ 
     .secciónPrincipal{
         display: flex;
         justify-content:space-between;
@@ -187,11 +208,12 @@ display: none;
     }
     .fondoPrincipal{
         display:flex;
-        width:20vw;
         box-shadow: -3px 3px 7px 3px rgb(40, 40, 40);
         border-radius: 1rem;
         animation-name:aparece;
-        animation-duration: 2s;   
+        animation-duration: 2s;
+        width: 25vw;
+        flex-wrap: wrap;   
     }
     .seccionSecundaria{
         display: flex;
@@ -200,7 +222,7 @@ display: none;
         align-items:center;
     }
     #timer{
-        font-size:1.5rem;
+        font-size:1.25rem;
         box-shadow: -3px 3px 7px 3px rgb(40,40,40);
         border-radius: 1rem;
         animation-name:aparece;
@@ -228,7 +250,7 @@ display: none;
     
     span{
         color: var(--color-rosado2) !important;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     
     .productos{
@@ -308,6 +330,7 @@ display: none;
         cursor: pointer;
         align-items: end;
         z-index:2;
+        margin-left:20vw;
         
        
 

@@ -60,6 +60,7 @@ main{
     background-color: var(--color-blanco);
     padding: 3vh 5vw;
 }
+
 main img{
     display: flex;
     width:40%;

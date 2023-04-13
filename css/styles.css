@@ -333,25 +333,7 @@ display: none;
         bottom: 0;
         padding: 2vw;
     }
- /*    .productos{
-        width: 50%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 3vh 5vw;
-        justify-content: space-between;
-        background-image: linear-gradient(to top,var(--color-blanco),var(--color-celeste),var(--color-blanco));
-    }    
-    .card-producto{
-        width: 80%;
-        padding: 20px;        
-        box-shadow: -3px 3px 7px 3px rgba(40, 40, 40, 0.25);
-        border-radius: 1rem;
-        display: flex;
-        flex-direction: column;       
-        justify-content: space-between;}
-    .card-producto img{ width: 100%;} */
-   
+  
     .barra2.visible{
         opacity: 1;
         visibility: visible;

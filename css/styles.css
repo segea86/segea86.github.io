@@ -367,6 +367,9 @@ display: none;
         font-size: 2rem;
         background-color: transparent;
         cursor: pointer;
+        text-align: end;
+        align-items: end;
+        margin-left:22vw;
 
     }
 
